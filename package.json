@@ -1,7 +1,8 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://cr0ss2h3ll.github.io/reactjs-test",
   "dependencies": {
     "@vestergaard-company/js-mixin": "git+https://github.com/VestergaardCompany/js-mixin.git",
     "axios": "~0.17.1",
@@ -12,6 +13,8 @@
     "semantic-ui": "^2.2.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
