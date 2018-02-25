@@ -1,0 +1,12 @@
+.hover:hover {
+    background-color: #4c4f52;
+}
+.Main {
+    display: flex;
+    min-height: 100vh !important;
+    min-width: 100vw !important;
+    height: 100%;
+    flex-flow: row wrap;
+    margin: 0 !important;
+    padding: 0;
+}
